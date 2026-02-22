@@ -1,0 +1,44 @@
+:root {
+    --primary-bg-color: hsl(30, 38%, 92%);
+    --card-bg-color: hsl(0, 0%, 100%);
+    --h1-p-color: hsl(228, 12%, 48%);
+    --product-name-color: hsl(212, 21%, 14%);
+    --current-price-color: hsl(158, 36%, 37%);
+    --button-bg-color: hsl(158, 42%, 18%);
+    --button-font-color: hsl(0, 0%, 100%)
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img, picture, video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-color: var(--primary-bg-color);
+}
+
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+
+    position: absolute;
+    bottom: 1rem;
+}
+
+footer a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
