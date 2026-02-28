@@ -34,7 +34,7 @@ body {
 /*Fonts need fixed*/
 main {
     display: flex;
-    max-width: 33rem;
+    max-width: 36rem;
 }
 
 img {
@@ -125,6 +125,7 @@ button:hover {
 
 .shopping-cart {
     width: .875rem;
+    transform: scaleX(-1);
 }
 
 /*Footer needs adjusting*/
