@@ -5,6 +5,7 @@
     --product-name-color: hsl(212, 21%, 14%);
     --current-price-color: hsl(158, 36%, 37%);
     --button-bg-color: hsl(158, 36%, 37%);
+    --button-hover-color: hsl(158, 42%, 18%);
     --button-font-color: hsl(0, 0%, 100%);
 }
 
@@ -30,14 +31,10 @@ body {
     font-family: 'fraunces', serif;
 }
 
+/*Fonts need fixed*/
 main {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 35rem;
-
-    background-color: var(--card-bg-color);
-    border-radius: 0.5rem;
+    max-width: 33rem;
 }
 
 img {
@@ -51,12 +48,15 @@ img {
     justify-content: center;
     align-items: flex-start;
     padding: 2rem;
-    
+
+    background-color: var(--card-bg-color);
+    border-radius: 0 0.5rem 0.5rem 0;
 }
 
 h1 {
-    font-size: 1rem;
-    letter-spacing: 0.2rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.3rem;
+    line-height: 120%;
     text-transform: uppercase;
     color: var(--h1-p-color);
 }
@@ -66,7 +66,7 @@ h2 {
     font-size: 2rem;
     font-weight: 700;
 
-    line-height: 2rem;
+    line-height: 100%;
     margin-top: 1rem;
 }
 
@@ -74,7 +74,7 @@ p {
     font-size: 0.875rem;
     color: var(--h1-p-color);
 
-    line-height: 1.25rem;
+    line-height: 160%;
     margin-top: 1.5rem;
 }
 
@@ -89,23 +89,22 @@ p {
     font-size: 2rem;
     font-weight: 700;
     color: var(--current-price-color);
-
-    margin-top: 1.5rem;
+    line-height: 100%;
 }
 
 .prev-price {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     text-decoration: line-through;
     color: var(--h1-p-color);
-
-    margin-top: 1.5rem;
+    line-height: 120%;
 }
 
 button {
     background-color: var(--button-bg-color);
     color: var(--button-font-color);
-    font-size: 1rem;
+    font-size: .875rem;
     font-weight: 700;
+    line-height: 110%;
     
     border: none;
     border-radius: 0.5rem;
@@ -113,9 +112,22 @@ button {
     width: 100%;
     cursor: pointer;
 
-    margin-top: 1.5rem;  
+    margin-top: 1.5rem; 
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
+button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.shopping-cart {
+    width: .875rem;
+}
+
+/*Footer needs adjusting*/
 footer { 
     font-size: 11px; 
     text-align: center; 

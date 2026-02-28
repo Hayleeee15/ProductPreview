@@ -1,3 +1,7 @@
+### February 27th 2026
+
+Gained access to the figma file and adjusted the padding
+
 ### February 22nd 2026
 
 Initialized a "CSS reset" and updated the html to include sematic tags
