@@ -3,8 +3,7 @@
     --card-bg-color: hsl(0, 0%, 100%);
     --h1-p-color: hsl(228, 12%, 48%);
     --product-name-color: hsl(212, 21%, 14%);
-    --current-price-color: hsl(158, 36%, 37%);
-    --button-bg-color: hsl(158, 36%, 37%);
+    --current-price-button-bg-color: hsl(158, 36%, 37%);
     --button-hover-color: hsl(158, 42%, 18%);
     --button-font-color: hsl(0, 0%, 100%);
 }
@@ -18,6 +17,14 @@
 img, picture, video {
     display: block;
     max-width: 100%;
+}
+
+/*Mobile needs adjusting*/
+@media (max-width: 375px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 body {
@@ -38,7 +45,7 @@ main {
 }
 
 img {
-    width: 50%;
+    max-width: 50%;
     border-radius: 0.5rem 0 0 0.5rem;
 }
 
@@ -88,7 +95,7 @@ p {
 .current-price {
     font-size: 2rem;
     font-weight: 700;
-    color: var(--current-price-color);
+    color: var(--current-price-button-bg-color);
     line-height: 100%;
 }
 
@@ -100,7 +107,7 @@ p {
 }
 
 button {
-    background-color: var(--button-bg-color);
+    background-color: var(--current-price-button-bg-color);
     color: var(--button-font-color);
     font-size: .875rem;
     font-weight: 700;
@@ -130,14 +137,11 @@ button:hover {
 
 /*Footer needs adjusting*/
 footer { 
-    font-size: 11px; 
-    text-align: center; 
-
-    position: absolute;
-    bottom: 1rem;
+    font-size: .75rem; 
+    text-align: center;
 }
 
 footer a { 
-    color: var(--button-bg-color); 
+    color: var(--current-price-button-bg-color); 
     text-decoration: none;
 }
