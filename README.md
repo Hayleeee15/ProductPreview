@@ -1,3 +1,11 @@
+### Overview ### WIP
+
+This is a simple product preview card that uses flex box to create a responsive design. 
+
+### March 5th, 2026
+
+Minor updates to CSS
+
 ### February 27th 2026
 
 Gained access to the figma file and adjusted the padding
