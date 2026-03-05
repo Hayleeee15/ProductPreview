@@ -1,4 +1,6 @@
-### Overview ### WIP
+### Overview 
+
+### WIP
 
 This is a simple product preview card that uses flex box to create a responsive design. 
 
