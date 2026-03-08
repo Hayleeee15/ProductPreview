@@ -35,13 +35,14 @@ body {
     min-height: 100vh;
 
     background-color: var(--primary-bg-color);
-    font-family: 'fraunces', serif;
 }
 
 /*Fonts need fixed*/
 main {
     display: flex;
-    max-width: 36rem;
+    max-width: 37rem;
+    
+    font-family: 'fraunces', serif;
 }
 
 img {
@@ -66,6 +67,7 @@ h1 {
     line-height: 120%;
     text-transform: uppercase;
     color: var(--h1-p-color);
+    font-family: 'Montserrat', serif;
 }
 
 h2 {
@@ -75,6 +77,10 @@ h2 {
 
     line-height: 100%;
     margin-top: 1rem;
+}
+
+.description {
+    font-family: 'Montserrat', serif;
 }
 
 p {
@@ -139,6 +145,7 @@ button:hover {
 footer { 
     font-size: .75rem; 
     text-align: center;
+    margin-top: 1rem
 }
 
 footer a { 

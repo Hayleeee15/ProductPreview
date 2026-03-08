@@ -1,8 +1,39 @@
-### Overview 
+# Product Preview 🚀
 
-### WIP
+## Overview
+This is a simple product preview with a hover affect on the "link". Built to be responsive to mobile (WIP)
 
-This is a simple product preview card that uses flex box to create a responsive design. 
+### Built With
+🔴 Semantic HTML
+
+🔴 CSS Custom Properties
+
+🔴 CSS Flex
+
+🔴 "Clickable" Link
+
+### Preview
+
+<div align="left">
+  <div>
+    <b>Mobile Design:</b>
+  </div>
+  <div>
+  <p>WIP</p>
+  </div>
+  <div>
+    <b>Desktop Design:</b>
+  </div>
+  <div>
+    <img src="./design/ProductPreview-desktop.png" alt="Desktop Preview" width="500">
+  </div>
+</div>
+
+## Update Progress
+
+### March 8th, 2026
+
+Updated Font and README
 
 ### March 5th, 2026
 
