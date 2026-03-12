@@ -1,16 +1,20 @@
 # Product Preview 🚀
 
 ## Overview
-This is a simple product preview with a hover affect on the "link". Built to be responsive to mobile (WIP)
+This is a simple product preview with a hover affect on the "link". Built to be responsive to mobile.
 
 ### Built With
 🔴 Semantic HTML
 
 🔴 CSS Custom Properties
 
-🔴 CSS Flex
+🔴 CSS Grid
 
 🔴 "Clickable" Link
+
+🔴 Mobile First
+
+🔴 Media Query
 
 ### Preview
 
@@ -19,7 +23,7 @@ This is a simple product preview with a hover affect on the "link". Built to be 
     <b>Mobile Design:</b>
   </div>
   <div>
-  <p>WIP</p>
+  <p><img src="./design/ProductPreview-mobile.png" alt="Desktop Preview" width="250"></p>
   </div>
   <div>
     <b>Desktop Design:</b>
@@ -30,6 +34,12 @@ This is a simple product preview with a hover affect on the "link". Built to be 
 </div>
 
 ## Update Progress
+
+### March 11th, 2026
+
+Switched to display grid
+
+Fixed the media query now responsive from mobile to desktop
 
 ### March 8th, 2026
 
